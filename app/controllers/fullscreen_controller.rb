@@ -1,0 +1,2 @@
+class FullscreenController < ApplicationController
+end

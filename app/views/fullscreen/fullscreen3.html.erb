@@ -1,0 +1,32 @@
+<a href="index-2.html" id="close"></a>
+<a href="#" data-reveal-id="gallery-menu" class="nav-gal"></a>
+<!--Arrow Navigation-->
+<a id="prevslide" class="load-item"></a>
+<a id="nextslide" class="load-item"></a>
+<div id="slidecaption" ></div>
+
+<!--Start gallery menu  -->  
+<div id="gallery-menu" class="reveal-modal">
+<a class="close-reveal-modal">&#215;</a>
+	<ul id="galleries">
+        <li><a href="fullscreen_gallery.html"><figure><img src="assets/patio.jpg" alt=""></figure><h6>Gallery 1</h6>Short descritpion</a></li>
+        <li><a href="fullscreen_gallery-2.html"><figure><img src="assets/parking.jpg" alt=""></figure><h6>Gallery 2</h6>Short descritpion</a></li>
+        <li><figure><img src="assets/swimm.jpg" alt=""></figure><h6>Gallery 3</h6>Short descritpion</li>
+    </ul>
+</div><!--End gallery menu  -->  
+
+<!-- JS -->
+<script src="js/jquery.reveal.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script src="js/supersized.3.2.7.min.js"></script>
+<script src="js/supersized.shutter.min.js"></script>
+<script>
+jQuery(function($){
+$.supersized({
+slides :  	[			// Slideshow assets
+{image : 'assets/gallery/9.jpg', title : 'Amazing places<span>Lorem ipsum dolor sit amet, lacus <a href="#"> sollicitudin nullam</a>.</span>'},
+{image : 'assets/gallery/10.jpg', title : 'Amazing places<span>Lorem ipsum dolor sit amet, lacus.</span>'},
+{image : 'assets/gallery/11.jpg', title : 'Amazing places<span>Lorem ipsum dolor sit amet, lacus dictum urna sollicitudin nullam ac.</span>'} // Last has no comma
+]				
+});
+});</script>
