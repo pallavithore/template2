@@ -19,5 +19,6 @@
  *= require "supersized.css"
  *= require "supersized.shutter.css"
   *= require "touchTouch.css"
-     *= require "weather.css"
+  *= require "weather.css"
+  
  */
